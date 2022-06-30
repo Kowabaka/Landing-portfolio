@@ -1,0 +1,310 @@
+@font-face {
+    font-family: "GilroyMedium";
+    src: url("../fonts/GilroyMedium.eot");
+    src: url("../fonts/GilroyMedium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GilroyMedium.woff") format("woff"),
+    url("../fonts/GilroyMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: "GilroyBold";
+    src: url("../fonts/GilroyBold.eot");
+    src: url("../fonts/GilroyBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GilroyBold.woff") format("woff"),
+    url("../fonts/GilroyBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+    html{
+        box-sizing: border-box;
+    }
+   *, *::before, *::after{
+      box-sizing: inherit;
+    }
+
+    body{
+        font-family: 'GilroyMedium';
+        font-style: normal;
+        font-size: 18px;
+        color: #070707;
+        font-weight: normal;
+        line-height: 21.83px;
+        background: white;
+
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .wrap{
+
+        margin: 0 auto;
+        padding: 0 auto;
+        max-width: 944px;
+    }
+
+/*header style start*/
+
+    .header__menu{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 32px;
+        margin-top: 33px;
+    }
+    .header__link-home{
+        font-family: 'GilroyBold';
+        font-size: 18px;
+        line-height: 22px;
+        color: #070707;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    .header__link{
+        font-family: 'GilroyBold';
+        font-size: 18px;
+        line-height: 22px;
+        color: #828282;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    .line{
+        border: solid;
+        color: #828282;
+        margin-bottom: 40px;
+        border-width: 1px;
+    }
+
+    /*header style end*/
+
+    /*title style start*/
+
+    .title__wrap{
+        max-width: 944px;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    .title__flex{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 297px;
+        padding: 0 auto;
+        margin-bottom: 31px;
+    }
+    .main__title{
+        width: 124px;
+        height: 119px;
+        font-size: 48px;
+        line-height: 59px;
+        font-weight: 700;
+    }
+    .main__info{
+        width: 156px;
+        height: 44px;
+        font-size: 18px;
+        line-height: 22px;
+        padding-top: 56px;
+
+    }
+    .change__lang{
+        margin-top: 69px;
+        width: 80px;
+        height: 20px;
+        font-size: 16px;
+        line-height: 20px;
+        transform: rotate(-90deg);
+        font-weight: 700;
+        color: #828282;
+        padding-top: 25px;
+        }
+    /*title style end*/
+
+    /*MePhoto style start*/
+
+    .photo__me{
+        max-width: 944px;
+        margin: 0 auto;
+        padding: 0 auto;
+        margin-bottom: 104px;
+    }
+
+    /*MePhoto style end*/
+
+    /*about me style start*/
+
+    .about__me{
+        max-width: 100%;
+        max-height: 504px;
+        margin: 0 auto;
+        padding: 0 auto;
+        background: #F6F6F6;
+        text-align: center;
+    }
+
+    .about__me-top{
+        padding-top: 104px;
+        font-family: 'GilroyBold';
+        font-size: 34px;
+        line-height: 42px;
+        font-weight: 700;
+        padding-bottom: 17px;
+    }
+    .about__me-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .about__me-text-1{
+        padding-bottom: 40px;
+    }
+    .about__me-text-2{
+        padding-bottom: 40px;
+    }
+    .about__me-text-3{
+        padding-bottom: 107px;
+    }
+
+    /*about me style end*/
+
+    /*skills style start*/
+    .skills{
+        margin: 0 auto;
+        padding: 0 auto;
+        max-width: 944px;
+    }
+
+    .skills__title{
+        font-family: 'GilroyBold';
+        font-size: 34px;
+        line-height: 42px;
+        text-align: center;
+        padding-bottom: 69px;
+        padding-top: 91px;
+    }
+    .skills__work-prog{
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        padding-bottom: 83px;
+
+    }
+    .skills__prog{
+        display: flex;
+        padding-left: 44px;
+        padding-right: 54px;
+        justify-content: space-between;
+    }
+    .logo__prog{
+        padding-bottom: 23px;
+    }
+    .name__prog{
+        font-size: 14px;
+        line-height: 17px;
+        color: #828282;
+        font-family: 'GilroyBold';
+        padding-bottom: 41px;
+        padding-left: 8px;
+
+    }
+    .skills__stars{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 110px;
+    }
+
+
+    /*skills style end*/
+
+    /*portfolio style start*/
+
+    .portfolio{
+        max-width: 100%;
+        max-height: 2253px;
+        margin: 0 auto;
+        padding: 0 auto;
+        background: #F6F6F6;
+        text-align: center;
+    }
+    .portfolio__title{
+        font-family: 'GilroyBold';
+        font-size: 34px;
+        line-height: 42px;
+        text-align: center;
+        padding-top: 113px;
+        margin-bottom: 47px;
+    }
+    .project__web{
+        margin-bottom: 45px;
+    }
+    .web__name{
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        padding-bottom: 99px;
+        color: Black;
+    }
+    .web__name-3{
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        padding-bottom: 96px;
+        color: Black;
+    }
+
+    /*portfolio style end*/
+
+    /*footer style start*/
+    .contacts{
+        margin: 0 auto;
+        padding: 0 auto;
+        max-width: 944px;
+}
+    .contacts__title{
+        font-family: 'GilroyBold';
+        font-size: 34px;
+        line-height: 42px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .constacts__text{
+        font-family: 'GilroyMedium';
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .butt{
+        font-family: 'GilroyBold';
+        font-size: 18px;
+        background-color: black;
+        color: white;
+        width: 180px;
+        height: 42px;
+        display: block;
+        margin-left: 381px;
+        margin-bottom: 80px;
+        border-radius: 25px;
+    }
+    .contacts__pic{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 299px;
+        padding-right: 294px;
+        margin-bottom: 46px;
+    }
+    .like__network{
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #828282;
+        margin-bottom: 123px;
+    }
+
+    /*footer style end*/
+
+
+
